@@ -56,7 +56,7 @@ let hamster = {
   stomach: [],
 
   eat(food) {
-    this.stomach.push(food);
+    this.stomach = [food];
   }
 };
 
